@@ -3,7 +3,7 @@
 
 I love data, but it does no good sitting on a machine collecting lint.
 
-So I create APIs so we can get to it and do fun things.
+So I create APIs that we can get to it and do fun things.
 
 Here is a very basic API to a Student database, created using Flask.
 
