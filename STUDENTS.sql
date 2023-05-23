@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "STUDENTS" (
+	"id"	TEXT,
+	"firstname"	TEXT,
+	"lastname"	TEXT,
+	"department"	TEXT
+);
+INSERT INTO "STUDENTS" VALUES (1,'Travis','Hubbard','CS');
+INSERT INTO "STUDENTS" VALUES (2,'Joe','Blow','MATH');
+INSERT INTO "STUDENTS" VALUES (3,'Missy','Schmoe','PE');
+INSERT INTO "STUDENTS" VALUES (4,'Eileen','Dover','ART');
+INSERT INTO "STUDENTS" VALUES (5,'Ben','Dover','MUSIC');
+COMMIT;

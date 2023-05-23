@@ -1,0 +1,7 @@
+2023-05-23 14:48:12,695 INFO student-api MainThread : app startup
+2023-05-23 14:48:12,698 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2023-05-23 14:48:12,698 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-05-23 14:48:22,391 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:22] "GET /getStudentById/4 HTTP/1.1" 200 -
+2023-05-23 14:48:27,051 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:27] "[33mGET /getStudenta HTTP/1.1[0m" 404 -
+2023-05-23 14:48:29,879 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:29] "GET /getStudents HTTP/1.1" 200 -
