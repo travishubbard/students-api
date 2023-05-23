@@ -5,3 +5,14 @@
 2023-05-23 14:48:22,391 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:22] "GET /getStudentById/4 HTTP/1.1" 200 -
 2023-05-23 14:48:27,051 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:27] "[33mGET /getStudenta HTTP/1.1[0m" 404 -
 2023-05-23 14:48:29,879 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [23/May/2023 14:48:29] "GET /getStudents HTTP/1.1" 200 -
+2023-05-23 15:47:10,013 INFO student-api MainThread : app startup
+2023-05-23 15:47:10,016 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8888
+2023-05-23 15:47:10,016 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-05-23 15:47:15,658 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:47:15] "GET /getStudents HTTP/1.1" 200 -
+2023-05-23 15:47:17,933 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:47:17] "GET /getStudents HTTP/1.1" 200 -
+2023-05-23 15:47:28,970 INFO student-api Thread-3 (process_request_thread) : main route
+2023-05-23 15:47:28,971 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:47:28] "GET / HTTP/1.1" 200 -
+2023-05-23 15:49:28,011 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:49:28] "GET /getStudents HTTP/1.1" 200 -
+2023-05-23 15:50:20,181 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:50:20] "GET /getStudentById/0 HTTP/1.1" 200 -
+2023-05-23 15:50:25,679 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [23/May/2023 15:50:25] "GET /getStudentById/2 HTTP/1.1" 200 -
